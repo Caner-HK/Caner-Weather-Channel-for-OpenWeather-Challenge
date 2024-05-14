@@ -46,7 +46,7 @@ CWC's goal is not merely to provide weather information but to influence daily d
 CWC was launched on **November 24, 2023** and remains a priority for the Caner Developer Team. Plans include integrating advanced functionalities like personal weather stations, solar energy assessments, and agricultural analytics.
 
 ## Statement
-**You must adhere to the terms of the _GNU Affero General Public License - 3.0_ when using CWC in any form, as it serves as the foundational license for this project.**
+**You MUST adhere to the terms of the _GNU Affero General Public License - 3.0_ when using CWC in any form, as it serves as the foundational license for this project.**
 
 Additional terms and conditions may also apply.
 
