@@ -1,9 +1,8 @@
-# Caner-Weather-Channel-for-OpenWeather-Challenge
+# Caner Weather Channel for OpenWeather Challenge
 ### OpenWeather Challenge Entries
 
 **Prepared by:** Caner Developer Team
----
-# To Allpha: Wait a sec, I will upload website file soon. 
+
 This is a special explanation document crafted for the OpenWeather Challenge.
 
 - **Website:** [weather.caner.center](http://weather.caner.center)
@@ -23,7 +22,7 @@ CWC's goal is not merely to provide weather information but to influence daily d
 3. **User Data Handling**: Employ `$_SERVER` to retrieve browser language and user agent.
 4. **User Preferences**: Fetch user settings from **CWC-Profile** cookie in JSON format.
 5. **Data Storage**: Store user requests and IDs in the database using cookies.
-6. **Language Selection**: Automatically select language based on the browser's `Accept Language`.
+6. **Language Selection**: Automatically select the language based on the browser's `Accept-Language.`
 7. **Geolocation**: Determine user's latitude and longitude using **Google Geocode** service.
 8. **Preferences and Settings**: Manage units and map preferences from **CWC-Profile** cookie.
 9. **Weather API Interaction**: Connect to **OpenWeather API** for real-time data.
@@ -47,6 +46,10 @@ CWC's goal is not merely to provide weather information but to influence daily d
 CWC was launched on **November 24, 2023** and remains a priority for the Caner Developer Team. Plans include integrating advanced functionalities like personal weather stations, solar energy assessments, and agricultural analytics.
 
 ## Statement
+**You MUST follow _GNU AFFERO GENERAL PUBLIC LICENSE - 3.0_ when using CWC in any form.**
+
+Additional terms and conditions may also apply.
+
 The source code for CWC is publicly available for research and usage on our [website](http://weather.caner.center) and GitHub. We are committed to transparency and open collaboration.
 
 Caner's signature is required to be retained as per usage terms.
