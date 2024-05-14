@@ -1,0 +1,23 @@
+<?php
+return [
+    'get_err' => '接收天氣數據失敗，無法生成建議',
+    'location' => '位置',
+    'current_weather' => '當前天氣情況',
+    'temp' => '溫度',
+    'feelslike' => '體感溫度',
+    'pressure' => '氣壓',
+    'humidity' => '濕度',
+    'dew_point' => '露點',
+    'clouds' => '雲量',
+    'visibility' => '能見度',
+    'wind_speed' => '風速',
+    'wind_deg' => '風向',
+    'forecast_weather' => '未來幾小時的天氣預報',
+    'aqi' => '當前AQI',
+    'aqi_max' => '（共5級）',
+    'alert' => '天氣警報',
+    'advice_prompt' => '請根據提供的天氣數據，考慮其對日常生活的影響，並提供相應的穿衣與出行建議。在制定建議時，請避免重複提及已提供的具體天氣信息，但可以引用空氣質量和天氣警報信息，避免大量使用引導性的開頭文字，以建議為主要內容。可以以這樣的提示語和格式：<strong>穿衣建議：</strong> <strong>出行建議：</strong> <strong>特別提示：</strong>（特別建議非必需項目，但在惡劣天氣如天氣警報、低溫、紫外線等級高、能見度低、風速大、強降水和惡劣空氣質量時要特別提醒）在每個建議類型間，請使用兩個HTML換行標籤（<br><br>）進行分隔，以便清晰表述。',
+    'resp_lang' => '使用香港繁體中文回复提示語建議。',
+    'unavailable' => '<p class="cwc-weather-suggestion">暫時無法提供建議，請刷新頁面或稍候嘗試或 <a class="cwc-link" href="mailto:support@caner.hk">聯繫 Caner 支持人員</a></p>',
+    'resp_err' => '<p class="cwc-weather-suggestion">響應數據不完整 <a class="cwc-link" href="mailto:support@caner.hk">聯繫 Caner 支持人員</a> 以反饋此問題</p>',
+];

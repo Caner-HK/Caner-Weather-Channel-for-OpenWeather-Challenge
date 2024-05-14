@@ -1,0 +1,23 @@
+<?php
+return [
+    'get_err' => 'Failed to receive weather data, unable to generate suggestions',
+    'location' => 'Location',
+    'current_weather' => 'Current weather conditions',
+    'temp' => 'Temperature',
+    'feelslike' => 'Feels like',
+    'pressure' => 'Pressure',
+    'humidity' => 'Humidity',
+    'dew_point' => 'Dew point',
+    'clouds' => 'Cloud cover',
+    'visibility' => 'Visibility',
+    'wind_speed' => 'Wind speed',
+    'wind_deg' => 'Wind direction',
+    'forecast_weather' => 'Weather forecast for the next few hours',
+    'aqi' => 'Current AQI',
+    'aqi_max' => '(out of 5 levels)',
+    'alert' => 'Weather alert',
+    'advice_prompt' => 'Please consider the impact of the provided weather data on daily activities and provide appropriate clothing and travel advice. When making suggestions, avoid repeating specific weather information already provided, but you may reference air quality and weather alerts. Avoid using a lot of introductory text and focus on the suggestions. Use the following prompts and format: <strong>Clothing advice:</strong> <strong>Travel advice:</strong> <strong>Special notes:</strong> (Special suggestions are not mandatory but should be emphasized during severe weather conditions such as weather alerts, low temperatures, high UV index, low visibility, high winds, heavy precipitation, and poor air quality). Separate each category of advice with two HTML line breaks (<br><br>) for clarity.',
+    'resp_lang' => 'Reply in English.',
+    'unavailable' => '<p class="cwc-weather-suggestion">Unable to provide suggestions at the moment, please refresh the page or try again later, or <a class="cwc-link" href="mailto:support@caner.hk">contact Caner support staff</a>.</p>',
+    'resp_err' => '<p class="cwc-weather-suggestion">Response data is incomplete. <a class="cwc-link" href="mailto:support@caner.hk">Contact Caner support staff</a> to report this issue.</p>',
+];
