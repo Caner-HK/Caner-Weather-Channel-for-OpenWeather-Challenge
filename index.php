@@ -2110,7 +2110,7 @@
                 map.overlayMapTypes.clear();
                 var weatherLayer = new google.maps.ImageMapType({
                     getTileUrl: function(coord, zoom) {
-                        return `https://tile.openweathermap.org/map/${layerType}/${zoom}/${coord.x}/${coord.y}.png?appid=d84453a2afd414c3a3cf2e103369c046`;
+                        return `https://tile.openweathermap.org/map/${layerType}/${zoom}/${coord.x}/${coord.y}.png?appid=!!!FILL YOUR OPENWEATHER MAP API KEY HERE!!!`;
                     },
                     tileSize: new google.maps.Size(256, 256)
                 });

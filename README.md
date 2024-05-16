@@ -12,8 +12,11 @@ This is a special explanation document crafted for the OpenWeather Challenge.
 ---
 # IMPORTANT
 
-### You MUST fill in ALL necessary cloud services' API keys into the following 2 files shown in the screenshot before you deploy this project.
-![pic1](./assets/screenshot1.png)
+### You MUST fill in ALL necessary cloud services' API keys into the following places in ./api/access and inidex.php (shown in the screenshot) before you deploy this project.
+![pic1](https://dl.ballex.cn/7/2024/05/16/6645d6d78b84f.png)
+> ↑ Fill in all the keys into the 2 following files.
+![pic2](https://dl.ballex.cn/7/2024/05/16/6645d6d824163.png)
+> ↑ Remember to also fill in the key in the following line of index.php
 
 ---
 
