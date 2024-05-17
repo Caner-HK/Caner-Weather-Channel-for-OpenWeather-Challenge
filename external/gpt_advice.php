@@ -1,7 +1,7 @@
 <?php
 require '../access/api/config.php';
 $api_key = GPT_API;
-$endpoint = "https://openai-api.caner.tw/v1/chat/completions";
+$endpoint = "https://api.openai.com/v1/chat/completions";
 
 $selected_lang = $_GET['lang'] ?? 'en-us';
 $lang = require "../access/language/gpt/{$selected_lang}.php";
@@ -66,7 +66,7 @@ $messages = [
     ["role" => "user", "content" => $prompt]
 ];
 $data = [
-    "model" => "gpt-4-turbo-preview",
+    "model" => "gpt-4o",
     "messages" => $messages,
     "temperature" => 0.4,
     "max_tokens" => 470,
